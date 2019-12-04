@@ -1,7 +1,9 @@
 package pl.accenture;
 
 public class Main {
-
+    
+	// Comment - change in git repo
+	
     public static void main(String[] args) {
 	// write your code here
         Animal animal = new Animal();

@@ -18,5 +18,10 @@ public class Main {
             }
         }
 
+        Vehicle sportCar = new SportCar();
+        SportCar sc = (SportCar)sportCar;
+
+        sc.turbo();
+        ((SportCar) sportCar).turbo();
     }
 }
